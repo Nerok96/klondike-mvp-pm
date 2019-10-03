@@ -2,8 +2,6 @@ package klondike.models;
 
 public class Foundation extends CardStack {
 
-    //TODO cambiar fits
-
     private Suit suit;
 
     public Foundation(Suit suit) {

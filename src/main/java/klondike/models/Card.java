@@ -3,7 +3,6 @@ package klondike.models;
 public class Card {
 
     private Suit suit;
-//TODO cambiar nombres faced y number
 
     private Number number;
 

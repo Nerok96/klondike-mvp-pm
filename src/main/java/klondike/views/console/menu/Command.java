@@ -4,6 +4,14 @@ import klondike.controllers.MoveController;
 import klondike.models.Error;
 import klondike.utils.IO;
 
+/**
+ * TODO
+ * Resulta extraño tener dos clases abstractas llamadas Command que hereda una de la otra pero en distinos paquetes.
+ *
+ * Soluciones propuestas:
+ * 1) Cambiar el nombrado de la hija de Command a CommandMove.
+ */
+
 public abstract class Command extends klondike.utils.Command {
 
     protected MoveController moveController;

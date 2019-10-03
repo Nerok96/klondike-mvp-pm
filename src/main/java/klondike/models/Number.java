@@ -1,7 +1,5 @@
 package klondike.models;
 
-//TODO card number siendo un as jack etc, no son todo numeros
-
 public enum Number {
     AS,
     TWO,

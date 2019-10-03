@@ -2,6 +2,14 @@ package klondike.models;
 
 public enum Error {
 
+    /**
+     * TODO
+     * Mensajes de error muy similares entre si.
+     *
+     * Soluciones propuestas:
+     * 1) Aplicar el patron builder para tener almancenado en el valor enumerado solo el nombre que cambia del mensaje.
+     * 2) Diferencias entre distintos de error, ya sean de tipo EMPY, NO_EMPTY, etc.
+     */
     EMPTY_STOCK("No cards in stock to move."),
     EMPTY_WASTE("No cards in waste to move."),
     EMPTY_FOUNDATION("No cards in foundation to move."),

@@ -4,7 +4,15 @@ import java.util.*;
 
 public class Game {
 
-    //TODO magic number lo del numero de pilas? que fuera por un fichero de onfiguracion o al arrancar el juego??
+    /**
+     * TODO
+     * Magic number con la variable de "NUMBER_OF_PILES".
+     *
+     * Soluciones propuestas:
+     *
+     * 1) Que sea una variable que se configura como parámetro al iniciar el juego.
+     * 2) Que venga definida en un fichero adicional de configuración de la aplicación.
+     */
 
     public static final int NUMBER_OF_PILES = 7;
 
