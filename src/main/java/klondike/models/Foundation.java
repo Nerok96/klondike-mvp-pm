@@ -20,7 +20,10 @@ public class Foundation extends CardStack {
                         (!this.empty() && card.isNextTo(this.peek())));
     }
 
-    public Suit getSuit() {
-        return this.suit;
-    }
+    /** TODO
+     * Este método original no se usa nunca
+     * public Suit getSuit() {
+     *         return this.suit;
+     *     }
+     */
 }

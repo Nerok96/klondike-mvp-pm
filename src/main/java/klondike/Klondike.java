@@ -9,17 +9,20 @@ import klondike.views.console.ConsoleView;
 
 public class Klondike {
 
-    private final StartController startController;
-    private final MoveController moveController;
-    private final ResumeController resumeController;
+    /**
+     * TODO
+     * Estos campos privados y finales que había originalmente pueden ser locales.
+     *     private final StartController startController;
+     *     private final MoveController moveController;
+     *     private final ResumeController resumeController;
+     */
     private View view;
-    private Game game;
 
     private Klondike() {
-        this.game = new Game();
-        this.startController = new StartController(this.game);
-        this.moveController = new MoveController(this.game);
-        this.resumeController = new ResumeController(this.game);
+        Game game = new Game();
+        StartController startController = new StartController(game);
+        MoveController moveController = new MoveController(game);
+        ResumeController resumeController = new ResumeController(game);
         this.view = new ConsoleView(startController, moveController, resumeController);
     }
 

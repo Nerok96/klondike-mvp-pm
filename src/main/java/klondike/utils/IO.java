@@ -107,8 +107,12 @@ public class IO {
                 + "Introduzca un valor con formato " + formato + ".");
     }
 
-    public static void clear() {
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
-    }
+    /** TODO
+     *  Este metodo original no se usa nunca
+     *
+     *  public static void clear() {
+     *         System.out.print("\033[H\033[2J");
+     *         System.out.flush();
+     *     }
+     */
 }
